@@ -1,0 +1,145 @@
+/* this is the first stylesheet for the web design capstone*/
+h1
+{
+	font-size: 250%;
+	color: #5465FF;
+	text-align: center;
+	display: inline-block;
+	background-color: #BFD7FF;
+}
+
+body
+{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column; 
+	background-color: rgb(255,255,255);
+}
+
+header
+{
+	background-color: rgb(197,190,144);
+	height: 10%;
+}
+
+img#logo
+{
+	height: auto;
+	width: 100px;
+	padding: 1%;
+}
+
+nav a
+{
+  padding : 2%;
+  margin : 5%;
+  text-decoration : none;
+  text-align : center;
+  color : rgb(27,28,31);
+  border-radius : 1%;
+  font-size: 1.2em;
+  float: none;
+  background-color: rgb(255,255,255);
+  width : 80%;
+  height : 2em;
+  display : block;
+  margin : 1%;
+  border-style : solid;
+  border-color : #FFFFFF;
+  border-radius : 25px;
+  margin-bottom: 3%;
+  margin-left: 5%;
+  margin-top: 2%; 
+} 
+a:active,.active
+{
+  background-color : #BFD7FF/*rgb(52,204,203)*/;
+}
+a:hover
+{
+  color : rgb(65,59,255);
+}
+
+nav
+{
+	box-sizing: border-box;
+	color: rgb(123,231,12);
+	display: inline-block;
+	width: 15%;
+	margin-right: 5%;
+	min-width: 150px;
+	height: 50vh;
+	min-height: 200px;
+	overflow: auto;
+	background-color: rgb(197,190,144);
+	margin-bottom: 5%;
+	float: left;
+}
+#contain
+{
+	width: 75%;
+	display: inline-block;
+	text-align: center;
+	overflow: auto;
+	position: relative;
+	left: 0;
+}
+
+footer
+{
+	background-color: rgb(197,190,144);
+}
+footer p,#locdata
+{
+	display: inline-block;
+	width: 70%;
+}
+#locdata
+{
+	margin-left: 2%;
+	float: left;
+	overflow: auto;
+}
+#location
+{
+	display: inline-block;
+	position: relative;
+	left: 0;
+	width: 25%;
+	overflow: auto;
+	margin: 1%;
+}
+#full
+{
+	flex: 1;
+}
+li
+{
+	display: block;
+}
+.mencat
+{
+	font-size: 200%;
+	display: inline-block;
+	margin: 2%;
+	padding: 2%;
+}
+
+.hide
+{
+	visibility: hidden;
+	text-align: left;
+	display: none;
+}
+.price
+{
+	float: right;
+}
+.lef
+{
+	text-align: left;
+}
+.cont
+{
+	
+}
